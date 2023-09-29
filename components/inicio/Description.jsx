@@ -5,7 +5,7 @@ import SliderDescription from "../sliders/sliderDescription";
 function Description() {
   return (
     <>
-      <section className="flex flex-col md:flex-row p-5 md:p-16 md:pt-32 pt-16  justify-evenly items-center w-full h-auto md:h-[100vh]">
+      <section className="flex flex-col md:flex-row p-5 md:p-16 md:pt-32 pt-16  justify-evenly items-center max-w-7xl m-auto  h-auto md:h-[100vh]">
 
         {/* CARRUSEL  */}
         <div data-aos="fade-right" className=" md:w-1/2 w-full h-[300px] md:h-full rounded-lg">
