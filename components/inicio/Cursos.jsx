@@ -1,10 +1,9 @@
-import { informacionCursos } from "@/data/data";
 import SliderCursos from "../sliders/SliderCursos";
 
 function Cursos() {
   return (
-    <section className="max-w-full m-auto h-[100vh] bg-red-400">
-      <div className="w-full h-[30vh] fondoNubes p-20">
+    <section className="max-w-full m-auto h-[100vh] ">
+      <div className="w-full h-[30vh] fondoNubes sm:p-20 p-10">
         <h1
           data-aos="fade-right"
           className="font-bold lg:text-left text-center lg:text-7xl md:text-9xl text-6xl lg:mt-[-3%]  text-[#003459]"

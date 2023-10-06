@@ -4,6 +4,7 @@ import Header from "@/components/inicio/Header";
 import Description from "@/components/inicio/Description";
 import Cursos from "@/components/inicio/Cursos";
 import Aviones from "@/components/inicio/Aviones";
+import Mapa from "@/components/inicio/Mapa";
 
 export default function Index() {
   return (
@@ -19,6 +20,9 @@ export default function Index() {
 
       {/* fourth section */}
       <Aviones/>
+
+      {/* fifth section  */}
+      <Mapa/>
 
     </Layout>
   );

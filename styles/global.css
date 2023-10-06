@@ -22,7 +22,25 @@ body{
     background-image: url("../public/assets/footer.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
+}
+
+.fondoMail{
+    background-image: url("../public/assets/avionFondoMail.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+/* CARD MAPA  */
+.card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 52, 89, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 
@@ -37,6 +55,20 @@ body{
     position: relative;
     z-index: 0;
 
+}
+
+/* FONDO PORTADA NOSOTROS  */
+.fondoPortadaNosotros{
+    background-image: url("../public/assets/portadaNosotros.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fondoBlurNosotros{
+    backdrop-filter: blur(4px) saturate(128%);
+    -webkit-backdrop-filter: blur(4px) saturate(128%);
+    background-color: rgba(68, 70, 71, 0.42);
 }
 
 /* Estilos para el Navbar */
@@ -76,7 +108,7 @@ body{
 }
 
 .items a:hover{
-    color:#70afdc;
+    color:#003459;
 }
 
 .toggle{
@@ -92,13 +124,13 @@ body{
 }
 
 /* SWIPER   */
-.swiper {
+.swiper1 {
     width: 100%;
     height: 100%;
     margin-top: -70px;
   }
   
-  .swiper-slide {
+  .swiper-slide1 {
     text-align: center;
     font-size: 18px;
     background: #41667F;
@@ -111,14 +143,49 @@ body{
     align-items: center;
   }
   
-  .swiper-slide img {
+  .swiper-slide1 img {
+    display: block;
+    
+    object-fit: cover;
+  }
+
+  .swiper2 {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    
+  }
+  
+  .swiper-slide2 {
+    text-align: center;
+    font-size: 18px;
+    background: #003459;
+    border-radius: 10px;
+    max-width: 200px;
+    margin: 10px;
+
+    max-height: 500px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide2 img {
     display: block;
     
     object-fit: cover;
   }
 
   @media (max-width: 800px) { 
-    .swiper-slide {
+    .swiper-slide1 {
+
+        max-width: 300px;
+        max-height: 500px;
+
+      }
+
+      .swiper-slide2 {
 
         max-width: 300px;
         max-height: 500px;
@@ -208,7 +275,14 @@ body{
 
     }
 
-    .swiper-slide {
+    .swiper-slide1 {
+
+        max-width: 300px;
+        max-height: 400px;
+
+      }
+
+      .swiper-slide2 {
 
         max-width: 300px;
         max-height: 400px;

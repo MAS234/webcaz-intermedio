@@ -37,8 +37,8 @@ function NavBar() {
             Open && "open"
           } justify-start text-center items-center flex`}
         >
-          <Link href={"#"}>Inicio</Link>
-          <Link href={"#"}>Nosotros</Link>
+          <Link href={"/"}>Inicio</Link>
+          <Link href={"/nosotros"}>Nosotros</Link>
           <Link href={"#"}>Cursos</Link>
           <Link href={"#"}>Blog</Link>
         </div>

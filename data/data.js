@@ -5,6 +5,7 @@ import avion1 from "../public/assets/AvionesMuestra.jpg"
 import avion2 from "../public/assets/AvionesMuestra2.jpg"
 import avion3 from "../public/assets/AvionesMuestra3.jpg"
 import avion4 from "../public/assets/AvionesMuestra4.jpg"
+import team from "../public/assets/team.png"
 
 const informacionAviones = [
     {
@@ -72,4 +73,44 @@ const informacionCursos = [
     },
 ]
 
-export {informacionCursos, informacionAviones}
+const informacionTeam = [
+    {
+        id: 1,
+        nombre: "Jorge Pepito",
+        frase: "“Maecenas eget condimentum velit.”",
+        titulo: "Piloto",
+        image: team,
+    },
+    {
+        id: 2,
+        nombre: "Jorge Pepito",
+        frase: "“Maecenas eget condimentum velit.”",
+        titulo: "Piloto",
+        image: team,
+    },
+    {
+        id: 3,
+        nombre: "Jorge Pepito",
+        frase: "“Maecenas eget condimentum velit.”",
+        titulo: "Piloto",
+        image: team,
+    },
+    {
+        id: 4,
+        nombre: "Jorge Pepito",
+        frase: "“Maecenas eget condimentum velit.”",
+        titulo: "Piloto",
+        image: team,
+    },
+    {
+        id: 5,
+        nombre: "Jorge Pepito",
+        frase: "“Maecenas eget condimentum velit.”",
+        titulo: "Piloto",
+        image: team,
+    },
+    
+
+]
+
+export {informacionCursos, informacionAviones, informacionTeam}
