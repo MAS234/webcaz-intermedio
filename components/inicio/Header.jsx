@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsFacebook, BsWhatsapp, BsInstagram } from "react-icons/bs";
 import { AiFillMail } from "react-icons/ai";
+import Link from 'next/link';
 
 function Header() {
   return (
@@ -15,9 +16,11 @@ function Header() {
         </div>
 
         {/* BUTTON  */}
-        <button data-aos="zoom-in" className="bg-[#003459] hover:bg-[#1d6293] duration-200 p-2 rounded-3xl ml-5 md:ml-24 font-medium lg:mt-10 mt-52 w-40 text-white">
+        <div data-aos="zoom-in" className="bg-[#003459] hover:bg-[#1d6293] duration-200 p-2 rounded-3xl ml-5 md:ml-24 font-medium lg:mt-10 mt-52 w-40 text-white text-center cursor-pointer">
+        <Link href="/cursos">
           VER CURSOS
-        </button>
+        </Link>
+        </div>
 
         {/* social networks  */}
         <div className="ml-10 gap-5 flex flex-col top-0 right-0 mt-[7vh]  lg:mt-40 " data-aos="fade-right">

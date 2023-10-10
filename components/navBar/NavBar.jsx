@@ -27,10 +27,10 @@ function NavBar() {
   return (
     <div>
       <nav className={`navBar ${Open && "open"} ${scrolling && "scrolled"}`}>
-        <div className={`navLogo ${Open && "open"}`}>
+        <Link href={"/"} className={`navLogo ${Open && "open"}`}>
           <Image src={logo} width={100} height={100} alt="logo" />
           <p className="text-white">AEROCLUB SKYWINGS</p>
-        </div>
+        </Link>
 
         <div
           className={`items ${
@@ -39,7 +39,7 @@ function NavBar() {
         >
           <Link href={"/"}>Inicio</Link>
           <Link href={"/nosotros"}>Nosotros</Link>
-          <Link href={"#"}>Cursos</Link>
+          <Link href={"/cursos"}>Cursos</Link>
           <Link href={"#"}>Blog</Link>
         </div>
 

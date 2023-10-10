@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+
+    scroll-behavior: smooth;
+  }
+
 body{
     font-family: 'Anek Bangla', sans-serif;
 }
@@ -69,6 +74,59 @@ body{
     backdrop-filter: blur(4px) saturate(128%);
     -webkit-backdrop-filter: blur(4px) saturate(128%);
     background-color: rgba(68, 70, 71, 0.42);
+}
+
+.fondoFlota{
+    background-image: url("../public/assets/cieloFlota.png");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.borderFlota{
+    border-radius: 0px 10px 0px 0px ;
+  }
+
+.fondoBlurFlota{
+    backdrop-filter: blur(6px) saturate(181%);
+    -webkit-backdrop-filter: blur(6px) saturate(181%);
+    background-color: rgba(109, 109, 109, 0.44);
+}
+
+.reflejo {
+    transition: opacity 1s ease, -webkit-box-reflect 1s ease;
+}
+
+.reflejo:hover {
+    opacity: 0.8; /* Cambia la propiedad que deseas animar */
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+}
+
+/* FONDO PORTADA CURSOS  */
+.fondoPortadaCursos{
+    background-image: url("../public/assets/fondoPortadaCusos.png");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fondoBlurCursos{
+    backdrop-filter: blur(4px) saturate(128%);
+    -webkit-backdrop-filter: blur(4px) saturate(128%);
+    background-color: rgba(68, 70, 71, 0.42);
+}
+
+.fondoFraseCurso{
+    background-image: url("../public/assets/cieloFlota.png");
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fondoBlurCursosFrase{
+    backdrop-filter: blur(4px) saturate(128%);
+    -webkit-backdrop-filter: blur(4px) saturate(128%);
+    background-color: rgba(42, 42, 42, 0.524);
 }
 
 /* Estilos para el Navbar */
@@ -176,6 +234,8 @@ body{
     
     object-fit: cover;
   }
+
+
 
   @media (max-width: 800px) { 
     .swiper-slide1 {
