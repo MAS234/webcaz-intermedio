@@ -15,7 +15,7 @@ body{
 
 /* SECTION CURSOS  */
 .fondoNubes{
-    background-image: url("../public/assets/fondoNubes.jpg");
+    background-image: url("/assets/fondoNubes.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:  center;
@@ -24,7 +24,7 @@ body{
 
 /* SECTION FOOTER  */
 .fondoFooter{
-    background-image: url("../public/assets/footer.png");
+    background-image: url("/assets/footer.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,7 +32,7 @@ body{
 }
 
 .fondoMail{
-    background-image: url("../public/assets/avionFondoMail.png");
+    background-image: url("/assets/avionFondoMail.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -64,7 +64,7 @@ body{
 
 /* FONDO PORTADA NOSOTROS  */
 .fondoPortadaNosotros{
-    background-image: url("../public/assets/portadaNosotros.jpg");
+    background-image: url("/assets/portadaNosotros.jpg");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@ body{
 }
 
 .fondoFlota{
-    background-image: url("../public/assets/cieloFlota.png");
+    background-image: url("/assets/cieloFlota.png");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -104,7 +104,7 @@ body{
 
 /* FONDO PORTADA CURSOS  */
 .fondoPortadaCursos{
-    background-image: url("../public/assets/fondoPortadaCusos.png");
+    background-image: url("/assets/fondoPortadaCusos.png");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@ body{
 }
 
 .fondoFraseCurso{
-    background-image: url("../public/assets/cieloFlota.png");
+    background-image: url("/assets/cieloFlota.png");
     background-position:  center;
     background-size: cover;
     background-repeat: no-repeat;
