@@ -56,7 +56,7 @@ body{
     background-repeat: no-repeat;
 
     height: 100vh; 
-    width: 100%; 
+    width: 100%¡; 
     position: relative;
     z-index: 0;
 
@@ -166,7 +166,7 @@ body{
 }
 
 .items a:hover{
-    color:#003459;
+    color:#096eb5;
 }
 
 .toggle{

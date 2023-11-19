@@ -6,7 +6,7 @@ import Link from 'next/link';
 function Header() {
   return (
     <>
-        <header className="fondoPrincipal relative w-full  h-[100vh]">
+        <header className="fondoPrincipal relative w-[100%]  h-[100vh]">
         {/* PHRASE  */}
         <div className="flex justify-start items-center "  data-aos="fade-right" >
           <h1 className="text-white md:text-4xl text-2xl ml-10 mt-40 lg:w-[35%] w-[80%] font-medium uppercase">

@@ -7,8 +7,8 @@ import { BiMap } from "react-icons/bi";
 function Mapa() {
   return (
     <>
-      <section className="w-full lg:h-[100vh] h-auto bg-[#003459]">
-        <div data-aos="fade-up" className="flex justify-center  items-center m-auto flex-wrap p-5 pt-0 ">
+      <section className="w-full lg:h-[100vh] h-auto p-5 bg-[#003459]">
+        <div data-aos="fade-up" className="flex justify-center  items-center m-auto flex-wrap  p-5 pt-0 ">
           <div className="lg:w-72 w-full h-96 rounded-lg card relative md:mt-10 mt-0 lg:mr-[-100px] z-20">
             <h2 className="lg:text-left text-center ml-5 text-white font-semibold mt-5 text-4xl ">
               Contactanos
@@ -49,7 +49,7 @@ function Mapa() {
             data-aos="fade-up"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016888186375!2d-58.38414532441757!3d-34.60373445749876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1696351633411!5m2!1ses!2sar"
             width="900"
-            height="550"
+            height="450"
             className="rounded-md shadow-lg shadow-gray-700 mt-10 "
           ></iframe>
         </div>

@@ -32,7 +32,7 @@ function SliderCursos() {
       >
         
         {informacionCursos.map((info) => (
-          <SwiperSlide key={info.id} className='overflow-hidden swiper-slide1'>
+          <SwiperSlide key={info.id} className='overflow-auto swiper-slide1'>
 
             <Image src={info.image} alt={info.titulo} width={500} height={200} className="rounded-md"/>
 
