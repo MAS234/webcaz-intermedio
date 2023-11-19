@@ -50,7 +50,7 @@ body{
 
 
 .fondoPrincipal{
-    background-image: url("../public/assets/fondoPrincipal.png");
+    background-image: url("/assets/fondoPrincipal.png");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
