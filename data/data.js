@@ -100,6 +100,7 @@ const informacionCursos = [
   },
 ];
 
+
 const informacionTeam = [
   {
     id: 1,
