@@ -1,6 +1,7 @@
 import { informacionAviones } from "@/data/data"
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Image from "next/image"
+import Link from "next/link";
 
 function Aviones() {
   return (
@@ -11,7 +12,7 @@ function Aviones() {
 
         <div className="w-[90%] h-auto flex flex-col md:flex-row justify-evenly items-center gap-4 p-5 " >
           {informacionAviones.map((avion) => (
-            <div key={avion.id} className=" bg-[#003459] hover:bg-[#132a3b] cursor-pointer w-64 h-80 rounded-lg shadow-lg shadow-gray-800 hover:shadow-gray-900 duration-200">
+            <div key={avion.id} className=" bg-[#003459] hover:bg-[#132a3b]  w-64 h-80 rounded-lg shadow-lg shadow-gray-800 hover:shadow-gray-900 duration-200">
               <Image src={avion.image} alt={avion.nombre} width={220} height={200} className="m-auto mt-2 rounded-full"/>
 
               <p className="text-center font-semibold text-xl mt-2 text-white">{avion.modelo}</p>
@@ -22,10 +23,10 @@ function Aviones() {
         </div>
 
         <div className="w-[10%] h-96 flex flex-col justify-center items-center ">
-          <div>
+          <Link href={"/nosotros"}>
           <BsFillArrowRightCircleFill className="m-auto w-16 h-16 text-[#003459] hover:text-[#132a3b] cursor-pointer duration-200"/>
           <p className="text-xl uppercase font-bold text-center text-[#003459]">Ver flota</p>
-          </div>
+          </Link>
         </div>
 
       </div>

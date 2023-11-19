@@ -30,7 +30,7 @@ function SliderNosotros() {
       >
         
         {informacionTeam.map((info) => (
-          <SwiperSlide key={info.id} className='overflow-hidden swiper-slide2'>
+          <SwiperSlide key={info.id} className='shadow-md shadow-gray-600 overflow-hidden swiper-slide2'>
 
             <Image src={info.image} alt={info.titulo} width={300} height={300} className="rounded-md"/>
 

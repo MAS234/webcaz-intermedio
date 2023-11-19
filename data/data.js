@@ -40,51 +40,63 @@ const informacionCursos = [
   {
     id: 1,
     image: privado,
+    icon: <FaPlaneDeparture />,
     informacion:
       "Este curso es perfecto para aquellos que buscan volar por diversión o como un primer paso hacia una carrera en la aviación. ",
-    titulo: "Piloto Privado",
+    titulo: "Piloto de Avión Comercial",
+    contenido: "Durante el curso de Piloto de Avión Comercial, adquirirás una comprensión profunda de la teoría de vuelo y ganarás experiencia práctica en el cockpit. Nuestro programa abarca temas esenciales como",
+    temas: "Principios de Vuelo: Aprenderás los conceptos fundamentales de aerodinámica y cómo funcionan las aeronaves.\n\nReglamentación Aérea: Te familiarizarás con las regulaciones y procedimientos de seguridad que rigen la aviación.\n\nNavegación: Dominarás las técnicas de navegación aérea, incluyendo el uso de cartas de navegación y sistemas de navegación modernos.\n\nManejo de la Aeronave: Obtendrás habilidades prácticas de vuelo, incluyendo despegues, aterrizajes, maniobras y gestión de emergencias.\n\nMeteorología: Comprenderás cómo la meteorología afecta a la aviación y aprenderás a tomar decisiones informadas en relación al clima."
+
   },
   {
     id: 2,
+    icon: <GiCaptainHatProfile />,
     image: bautismo,
     informacion:
       "Este curso es perfecto para aquellos que buscan volar por diversión o como un primer paso hacia una carrera en la aviación. ",
-    titulo: "Vuelo Bautismo",
+    titulo: "Instructor de vuelo",
+    contenido: "Durante el curso de Instructor de vuelo, adquirirás una comprensión profunda de la teoría de vuelo y ganarás experiencia práctica en el cockpit. Nuestro programa abarca temas esenciales como",
+    temas:"Principios de Vuelo: Aprenderás los conceptos fundamentales de aerodinámica y cómo funcionan las aeronaves.\n\nReglamentación Aérea: Te familiarizarás con las regulaciones y procedimientos de seguridad que rigen la aviación.\n\nNavegación: Dominarás las técnicas de navegación aérea, incluyendo el uso de cartas de navegación y sistemas de navegación modernos.\n\nManejo de la Aeronave: Obtendrás habilidades prácticas de vuelo, incluyendo despegues, aterrizajes, maniobras y gestión de emergencias.\n\nMeteorología: Comprenderás cómo la meteorología afecta a la aviación y aprenderás a tomar decisiones informadas en relación al clima."
   },
   {
     id: 3,
     image: instructor,
+    icon: <BsFillAirplaneFill />,
     informacion:
       "Este curso es perfecto para aquellos que buscan volar por diversión o como un primer paso hacia una carrera en la aviación. ",
-    titulo: "Instructor de Vuelo",
+    titulo: "PILOTO PRIVADO",
+    contenido: "Durante el curso de PILOTO PRIVADO, adquirirás una comprensión profunda de la teoría de vuelo y ganarás experiencia práctica en el cockpit. Nuestro programa abarca temas esenciales como",
+    temas:"Principios de Vuelo: Aprenderás los conceptos fundamentales de aerodinámica y cómo funcionan las aeronaves.\n\nReglamentación Aérea: Te familiarizarás con las regulaciones y procedimientos de seguridad que rigen la aviación.\n\nNavegación: Dominarás las técnicas de navegación aérea, incluyendo el uso de cartas de navegación y sistemas de navegación modernos.\n\nManejo de la Aeronave: Obtendrás habilidades prácticas de vuelo, incluyendo despegues, aterrizajes, maniobras y gestión de emergencias.\n\nMeteorología: Comprenderás cómo la meteorología afecta a la aviación y aprenderás a tomar decisiones informadas en relación al clima."
   },
   {
     id: 4,
     image: privado,
+    icon: <TbNorthStar />,
     informacion:
       "Este curso es perfecto para aquellos que buscan volar por diversión o como un primer paso hacia una carrera en la aviación. ",
-    titulo: "Piloto Privado",
+    titulo: "Navegación Aérea y Meteorología",
+    contenido: "Durante el curso de Navegación Aérea y Meteorología, adquirirás una comprensión profunda de la teoría de vuelo y ganarás experiencia práctica en el cockpit. Nuestro programa abarca temas esenciales como",
+    temas:"Principios de Vuelo: Aprenderás los conceptos fundamentales de aerodinámica y cómo funcionan las aeronaves.\n\nReglamentación Aérea: Te familiarizarás con las regulaciones y procedimientos de seguridad que rigen la aviación.\n\nNavegación: Dominarás las técnicas de navegación aérea, incluyendo el uso de cartas de navegación y sistemas de navegación modernos.\n\nManejo de la Aeronave: Obtendrás habilidades prácticas de vuelo, incluyendo despegues, aterrizajes, maniobras y gestión de emergencias.\n\nMeteorología: Comprenderás cómo la meteorología afecta a la aviación y aprenderás a tomar decisiones informadas en relación al clima."
   },
   {
     id: 5,
     image: bautismo,
+    icon: <FaTowerObservation />,
     informacion:
       "Este curso es perfecto para aquellos que buscan volar por diversión o como un primer paso hacia una carrera en la aviación. ",
-    titulo: "Vuelo Bautismo",
+    titulo: "Control de Tráfico Aéreo",
+    contenido: "Durante el curso de Control de Tráfico Aéreo, adquirirás una comprensión profunda de la teoría de vuelo y ganarás experiencia práctica en el cockpit. Nuestro programa abarca temas esenciales como",
+    temas:"Principios de Vuelo: Aprenderás los conceptos fundamentales de aerodinámica y cómo funcionan las aeronaves.\n\nReglamentación Aérea: Te familiarizarás con las regulaciones y procedimientos de seguridad que rigen la aviación.\n\nNavegación: Dominarás las técnicas de navegación aérea, incluyendo el uso de cartas de navegación y sistemas de navegación modernos.\n\nManejo de la Aeronave: Obtendrás habilidades prácticas de vuelo, incluyendo despegues, aterrizajes, maniobras y gestión de emergencias.\n\nMeteorología: Comprenderás cómo la meteorología afecta a la aviación y aprenderás a tomar decisiones informadas en relación al clima."
   },
   {
     id: 6,
     image: bautismo,
+    icon: <GiAirplane />,
     informacion:
       "Este curso es perfecto para aquellos que buscan volar por diversión o como un primer paso hacia una carrera en la aviación. ",
-    titulo: "Vuelo Bautismo",
-  },
-  {
-    id: 7,
-    image: bautismo,
-    informacion:
-      "Este curso es perfecto para aquellos que buscan volar por diversión o como un primer paso hacia una carrera en la aviación. ",
-    titulo: "Vuelo Bautismo",
+    titulo: "Vuelo bautismo",
+    contenido: "Durante el curso de Vuelo bautismo, adquirirás una comprensión profunda de la teoría de vuelo y ganarás experiencia práctica en el cockpit. Nuestro programa abarca temas esenciales como",
+    temas:"Principios de Vuelo: Aprenderás los conceptos fundamentales de aerodinámica y cómo funcionan las aeronaves.\n\nReglamentación Aérea: Te familiarizarás con las regulaciones y procedimientos de seguridad que rigen la aviación.\n\nNavegación: Dominarás las técnicas de navegación aérea, incluyendo el uso de cartas de navegación y sistemas de navegación modernos.\n\nManejo de la Aeronave: Obtendrás habilidades prácticas de vuelo, incluyendo despegues, aterrizajes, maniobras y gestión de emergencias.\n\nMeteorología: Comprenderás cómo la meteorología afecta a la aviación y aprenderás a tomar decisiones informadas en relación al clima."
   },
 ];
 
@@ -126,44 +138,8 @@ const informacionTeam = [
   },
 ];
 
-const informacionCardsCursos = [
-  {
-    id: 1,
-    icon: <FaPlaneDeparture />,
-    titulo: "Piloto de Avión Comercial",
-  },
-  {
-    id: 2,
-    icon: <GiCaptainHatProfile />,
-    titulo: " Instructor de vuelo",
-  },
-  {
-    id: 3,
-    icon: <BsFillAirplaneFill />,
-    titulo: "PILOTO PRIVADO",
-  },
-  {
-    id: 4,
-    icon: <TbNorthStar />,
-    titulo: "Navegación Aérea y Meteorología",
-  },
-  {
-    id: 5,
-    icon: <FaTowerObservation />,
-    titulo: "Control de Tráfico Aéreo",
-  },
-  {
-    id: 6,
-    icon: <GiAirplane />,
-    titulo: "Vuelo bautismo",
-  },
-  
-  
-];
-
 export {
   informacionCursos,
   informacionAviones,
   informacionTeam,
-  informacionCardsCursos,
 };
