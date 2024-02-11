@@ -10,7 +10,8 @@ function cursos() {
     <Layout>
       {/* First section  */}
       <header className="w-full lg:h-[170vh] h-auto">
-      <div className="w-full h-[30vh] fondoPortadaCursos bg-black"></div>
+      <div className="w-full h-[30vh] fondoPor
+      tadaCursos bg-black"></div>
       <div className="w-full h-[30vh] top-0 absolute fondoBlurCursos"></div>
 
       <section className="w-full lg:h-[140vh] h-auto p-5">
